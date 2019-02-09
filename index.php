@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+	
+    <title>Page Title</title>
+</head>
+
+<body onload="resetar();">
+
+	<h2>Estudando Tabuada</h2>
+
+<div class="wrapper-calc">
+	
+	<div id="resultado">Resultado é ...</div>
+	
+	<div class="container">
+		
+		<div id="n1">0</div>
+		<div id="sinalX">X</div>
+		
+		<div id="n2" >0</div>
+		<div id="sinalIgual">=</div>
+		
+		<input type="text" id="n3" />
+		
+	</div><!--container-->
+	
+	<div class="wrapper">
+		
+		<button onclick="verificar();">Verificar</button>
+		
+	</div><!--wrapper-->
+	
+</div><!--wrapper-calc-->
+
+<script src="js/script.js"></script>
+</body>
+</html>

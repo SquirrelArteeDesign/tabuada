@@ -1,0 +1,124 @@
+
+/*************************************/
+
+/********** RESET **********/
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Arial';
+}
+
+/*************************************/
+
+/********** TÍTULO **********/
+
+h2{
+	width: 100%;
+	max-width: 420px;
+	margin: 200px auto 20px auto;
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 5px dotted #ccc;
+	padding-bottom: 10px;
+	color: #26A599;
+}
+
+/*************************************/
+
+/********** VISUAL CALCULADORA **********/
+
+.wrapper-calc{
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 5px 2%;
+	background-color: #26A599;
+	border-radius: 10px;
+}
+
+#resultado{
+	min-width: 300px;
+	height: 100px;
+	line-height: 100px;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	padding: 0 2%;
+	margin: 15px auto;
+}
+
+/*************************************/
+
+/********** NÚMEROS E OPERAÇÃO **********/
+
+.container{
+	text-align: center;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 2%;
+}
+
+#n1, #n2, #sinalX, #sinalIgual, #n3{
+	width: 100%;
+	max-width: 30%;
+	height: 100px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #EEE;
+	margin: 0 5px;
+	padding: 0 2%;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#sinalX{
+	background-color: #1a4f43;
+	color: white;
+	border: none;
+}
+
+#n3{
+	outline: none;
+	background-color: white;
+	border: none;
+	color: #1c6c5f;
+}
+
+/*************************************/
+
+/********** BOTÃO VERIFICAR **********/
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 550px;
+	padding: 0 2%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+button{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	margin: 20px auto;
+	border-radius: 10px;
+	outline: none;
+	background-color: #1c6c5f;
+	border: none;
+	color: white;
+	font-size: 30px;
+}
+
+/*************************************/
