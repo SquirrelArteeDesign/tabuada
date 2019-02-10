@@ -14,30 +14,34 @@
 <body onload="resetar();">
 
 	<h2>Estudando Tabuada</h2>
+	
+<div class="wrapper-container">
 
-<div class="wrapper-calc">
+	<div class="wrapper-calc">
+		
+		<div id="resultado">Resultado é ...</div>
+		
+		<div class="container">
+			
+			<div id="n1">0</div>
+			<div id="sinalX">X</div>
+			
+			<div id="n2" >0</div>
+			<div id="sinalIgual">=</div>
+			
+			<input type="text" id="n3" />
+			
+		</div><!--container-->
+		
+		<div class="wrapper">
+			
+			<button onclick="verificar();">Verificar</button>
+			
+		</div><!--wrapper-->
+		
+	</div><!--wrapper-calc-->
 	
-	<div id="resultado">Resultado é ...</div>
-	
-	<div class="container">
-		
-		<div id="n1">0</div>
-		<div id="sinalX">X</div>
-		
-		<div id="n2" >0</div>
-		<div id="sinalIgual">=</div>
-		
-		<input type="text" id="n3" />
-		
-	</div><!--container-->
-	
-	<div class="wrapper">
-		
-		<button onclick="verificar();">Verificar</button>
-		
-	</div><!--wrapper-->
-	
-</div><!--wrapper-calc-->
+</div><!--wrapper-container-->
 
 <script src="js/script.js"></script>
 </body>
