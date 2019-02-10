@@ -23,4 +23,3 @@ function resetar(){
 	document.getElementById('n1').innerHTML = r1;
 	document.getElementById('n2').innerHTML = r2;
 }
-
